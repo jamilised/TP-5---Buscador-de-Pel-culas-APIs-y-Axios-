@@ -7,7 +7,7 @@ const MovieDetail = ({ movie }) => {
 
       <img
         src={
-          movie.Poster !== "N/A"
+          movie.Poster !== 'N/A'
             ? movie.Poster
             : "https://via.placeholder.com/300x450"
         }

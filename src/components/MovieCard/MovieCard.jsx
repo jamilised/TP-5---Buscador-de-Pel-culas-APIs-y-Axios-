@@ -5,7 +5,7 @@ const MovieCard = ({ movie, onSelect }) => {
     <div className="movie-card" onClick={() => onSelect(movie.imdbID)}>
       <img
         src={
-          movie.Poster !== "N/A"
+          movie.Poster !== 'N/A'
             ? movie.Poster
             : "https://via.placeholder.com/200x300"
         }

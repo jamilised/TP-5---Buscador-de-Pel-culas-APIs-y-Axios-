@@ -1,31 +1,27 @@
-/* Reset básico */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Fondo general */
 body {
   font-family: Arial, sans-serif;
-  background: #141414;
+  background: #e7b6ee;
   color: #fff;
 }
 
-/* Contenedor principal */
 .app {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
 
-/* Título */
 h1 {
   text-align: center;
-  margin-bottom: 20px;
+  font-size: 3rem;
+  margin-bottom: 30px;
 }
 
-/* Mensajes */
 p {
   text-align: center;
   margin: 10px 0;
