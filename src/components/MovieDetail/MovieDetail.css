@@ -1,0 +1,18 @@
+.movie-detail {
+  margin-top: 30px;
+  padding: 20px;
+  background: #1f1f1f;
+  border-radius: 10px;
+}
+
+.movie-detail img {
+  display: block;
+  margin: 0 auto 20px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.movie-detail p {
+  margin: 5px 0;
+  text-align: left;
+}
